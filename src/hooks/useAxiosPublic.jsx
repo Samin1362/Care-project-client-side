@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosPublic = axios.create({
-  baseURL: "http://localhost:5001",
+  baseURL: "https://server-side-lemon-five.vercel.app",
 });
 
 const useAxiosPublic = () => {
