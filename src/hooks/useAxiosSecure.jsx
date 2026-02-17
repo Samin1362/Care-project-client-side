@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { AuthContext } from "../providers/AuthProviders";
 
 const axiosSecure = axios.create({
-  baseURL: "http://localhost:5001",
+  baseURL: "https://server-side-lemon-five.vercel.app",
 });
 
 const useAxiosSecure = () => {
